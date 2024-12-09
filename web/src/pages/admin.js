@@ -1,25 +1,25 @@
-import React, { Component, useState,useEffect } from 'react';
-import { getAllPr } from '../api';
-import TablesAd from '../components/tablesAd';
+// import React, { Component, useState,useEffect } from 'react';
+// import { getAllPr } from '../api';
+// import TablesAd from '../components/tablesAd';
 
 
-const  Rating = ()=> {
+// const  Rating = ()=> {
 
-  const [data,setData] = useState([])
+//   const [data,setData] = useState([])
 
-  useEffect(async()=>{
-    setData( await getAllUsers())
-  },[data.length])
+//   useEffect(async()=>{
+//     setData( await getAllUsers())
+//   },[data.length])
 
-  console.log(data)
+//   console.log(data)
 
-    return (
-      <div >
-        <h1 className="Table-header">Проблемы</h1>
-        <TablesAd data={data}/>
-      </div>
-    );
+//     return (
+//       <div >
+//         <h1 className="Table-header">Проблемы</h1>
+//         <TablesAd data={data}/>
+//       </div>
+//     );
 
-}
+// }
 
-export default Rating
+// export default Rating
